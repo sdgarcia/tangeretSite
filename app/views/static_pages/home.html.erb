@@ -1,0 +1,179 @@
+<% provide(:title, 'Home') %>
+<div class="home-page main">
+	<section class="grid-wrap" >
+		<header class="grid col-full">
+			<hr>
+			<p class="fleft">Home</p>
+			<%= link_to "see more infos", about_path, {:class=>"arrow fright"} %>
+		</header>
+		
+		<div class="grid col-one-half mq2-col-full">
+			<h1>Mobile &amp web <br>
+			solutions </h1>
+			<p><strong><h5>TangereT is a global creative studio, committed to designing extraordinary creative experiences that inspire consumers through technology, design and innovation</h5></strong>
+			</p>
+			<p>Our work is driven by business needs and goals, your strategy is our aim in our products and services. We are your alliad to help you growth.</p>
+			<p>The results of our work are <strong>products useful, usable and desirable.</strong>
+			</p>
+		</div>
+			
+	
+		 <div class="slider grid col-one-half mq2-col-full">
+		   <div class="flexslider">
+		     <div class="slides">
+		       <div class="slide">
+		           	<figure>
+		                <%= image_tag("img2.png", :alt=>"img2") %>
+		                 <figcaption>
+		                 	<div>
+		                 	<h5></h5>
+		                 	<p><a href="services.html#navtabs">Mobile apps</a></p>
+		                 	</div>
+		                 </figcaption>
+		             	</figure>
+		           </div>
+		           
+		           <div class="slide">
+		               	<figure>
+		                     <%= image_tag("img3.png", :alt=>"img3") %>
+		                     <figcaption>
+		                     	<div>
+		                     	<h5></h5>
+		                     	<p><a href="services.html#navtabs">Web apps</a></p></p>
+		                     	</div>
+		                     </figcaption>
+		                 	</figure>
+		               </div>
+					   
+					   	<div class="slide">
+							<figure>
+								<%= image_tag("img5.jpg", :alt=>"img5") %>
+								<figcaption>
+									<div>
+									<h5></h5>
+									<p><a href="services.html#navtabs">Mobile web</a></p></p>
+									</div>
+								</figcaption>
+								</figure>
+							</div>
+							
+							<div class="slide">
+								<figure>
+									<%= image_tag("img6.jpg", :alt=>"img6") %>
+									<figcaption>
+										<div>
+										<h5></h5>
+										<p><a href="services.html#navtabs">WebSites</a></p></p>
+										</div>
+									</figcaption>
+									</figure>
+								</div>
+							
+								<div class="slide">
+									<figure>
+										<%= image_tag("img4.jpg", :alt=>'img4') %>
+										<figcaption>
+											<div>
+											<h5></h5>
+											<p><a href="services.html#navtabs">Gaming</a></p></p>
+											</div>
+										</figcaption>
+										</figure>
+									</div>
+									
+									<div class="slide">
+										<figure>
+											<%= image_tag("img1.jpg", :alt=>"img1") %>
+											<figcaption>
+												<div>
+												<h5></h5>
+												<p><a href="services.html#navtabs">Mobile-Web optimization</a></p></p>
+												</div>
+											</figcaption>
+											</figure>
+										</div>
+							
+		            </div>
+		   </div>
+		 </div>
+		
+		 </section>
+	
+	<section class="services grid-wrap">
+		<header class="grid col-full">
+			<hr>
+			<p class="fleft">Services</p>
+			<a href="services.html" class="arrow fright">see more services</a>
+		</header>
+		
+		<article class="grid col-one-third mq3-col-full">
+			<aside>01</aside>
+			<h5>Mobile apps</h5>
+			<p><strong>Mobile devices </strong>are always on and they go everywhere with their clientes, this is why it is very useful a <strong>mobile application</strong> as <strong>a tool for branding, promotions, brochures and geolocation</strong>.</p>
+		</article>
+		
+		<article class="grid col-one-third mq3-col-full">
+			<aside>02</aside>
+			<h5>Web apps</h5>
+			<p><strong>Enterprise Management</strong>, is more efficient if you have applications that allows you to monitor your e-commerce, your client or provider's requests, <strong>all integrated in your systems</strong>.</p>
+		</article>
+		
+		<article class="grid col-one-third mq3-col-full">
+			<aside>03</aside>
+			<h5>Mobile web</h5>
+			<p>Mobile Users expect to have a user experience as good as they have on ther computers, in order to solve this, our Studio develops <strong>mobile web site</strong> with <strong>the best design, functionality and easy navegation</strong>.</p>
+		</article>
+	</section>
+
+<section class="works grid-wrap">
+	<header class="grid col-full">
+			<hr>
+			<p class="fleft">Products</p>
+			<a href="products.html" class="arrow fright">see more products</a>
+		</header>
+	
+			<figure class="grid col-one-quarter mq2-col-one-half">
+				<a href="work1.html">
+				<%= image_tag("medic.jpg", :alt=>"medic") %>
+				<span class="zoom"></span>
+				</a>
+				<figcaption>
+					<a href="work1.html" class="arrow">Hc Medic</a>
+					<p>Your health history in your hands</p>
+				</figcaption>
+			</figure>
+
+			<figure class="grid col-one-quarter mq2-col-one-half">
+				<a href="#">
+				<%= image_tag("movies.jpg", :alt => "movies") %>
+				<span class="zoom"></span>
+				</a>
+				<figcaption>
+					<a href="#" class="arrow">MoviesApp</a>
+					<p>Cinema and current shows in real time</p>
+				</figcaption>
+			</figure>
+		
+			<figure class="grid col-one-quarter mq2-col-one-half">
+				<a href="#">
+				<%= image_tag("taxi.gif", :alt=>"taxi") %>
+				<span class="zoom"></span>
+				</a>
+				<figcaption>
+					<a href="#" class="arrow">TaxiApp</a>
+					<p>Request a taxi from any location</p>
+				</figcaption>
+			</figure>
+		
+			<figure class="grid col-one-quarter mq2-col-one-half">
+				<a href="#">
+				<%= image_tag("gift.jpg", :alt=>"gift") %>
+				<span class="zoom"></span>
+				</a>
+				<figcaption>
+					<a href="#" class="arrow">GiftsApp</a>
+					<p>Find thousand of options to give a gift</p>
+				</figcaption>
+			</figure>
+	</section>
+	</div> <!--main-->

@@ -1,0 +1,54 @@
+<% provide(:title, 'About') %>
+<div class="about-page main grid-wrap">
+
+	<header class="grid col-full">
+	<hr>
+		<p class="fleft">About</p>
+	</header>
+
+	<aside class="grid col-one-quarter mq2-col-full">
+		<p class="mbottom">We are an <strong>Innovation Studio</strong> in <strong>mobile and web technologies</strong> focus in promoting the <strong><a href="services.html#navtogg" title="Learn our approach to products and services" target="_blank">industrial growth and life quality</a></strong> through <strong><a href="Innovation.html" title="Learn how to manage innovation" target="_blank"> Innovation Management</a></strong>.</p>
+		</p>
+		<menu>
+			<ul>
+				<li><%= link_to "Our team", "#navteam", {:class=>"arrow"} %></li>
+				<li><%= link_to "Our passion", "#navphilo", {:class=>"arrow"} %></li>
+				<li><%= link_to "Our place and culture", "#navplace", {:class=>"arrow"} %></li>
+				<li><%= link_to "Our history", "#navother", {:class=>"arrow"} %></li>
+			</ul>
+		</menu>
+	</aside>
+	
+	<section class="grid col-three-quarters mq2-col-full">
+		<%= image_tag("team.jpg", :alt=>"team") %>
+		
+		<article id="navteam">
+		<h2>Our team</h2>
+		<p>Co-Funder: Seba, worked as a Techleader and Project manager, took curses of enterpreunership. He is Software Engineer and is passion about technology, mobile devices, sports and his girlfriend ;)</p>
+		<p>Co-Funder: Nickie, Industrial Engineer, worked with IT processs and as a Project Manager; she is also passioned about technology, design, esthetic, art and of course her boyfriend :). Compulsive reader, curious and creative.
+		</p>
+		</article>
+		
+		<article id="navphilo">
+		<h2>Our passion</h2>
+		<p>The <a href="Innovation.html" title="Learn how to manage innovation" target="_blank"> Innovation Management</a> is our key to create value and trust to our <strong>clients and investors</strong>, it is our company culture, we enjoy it while we evolve in TangereT. We defined ourselves as Eric Ries mentioned "a human institution designed to create a new product or service under conditions of extreme uncertainty. Thus, frameworks and lean methodologies, Kanban, XP, Agile and Scrum adapt to our <a href="working.html" title="Learn how we work" target="_blank"> way of working</a>, we like it, we are passioned and inspire by...</p>
+		<p>We love continuous improvement in all what we do in order to improve the business strategies of our clients' products, we are really excited when fulfill their real demand.</p>
+		</article>
+		
+		<article id="navplace">
+		<h2>Our place and culture</h2>
+		<p>The virtual world allows us to work remotely and fulfill our clients expectations, so wifi + a relax place like home, a coffe store are enough space for creativity and innovative ideas are present in all that we do.</p>
+		<p>However, sometimes business require a more convetional place that talk about us, therefore, our Studio is equipped with technology, creativity and design in every single detail to provide that ingredient that distinct us: <a href="Innovation.html" title="Learn how to manage innovation" target="_blank">Innovation</a>.</p>
+		<p>We do everything we can to provide an environment that is conducive to creativity manifested in technology and design and at the same time, we encourage a culture that makes people want to work, and play, here.</p>
+		<p>In our studio we have an environment where ideas can flow, everything is at hand, everything is about to begin translating what we want.</p>
+		<p>Our Studio is cool, thoughtful, inspiring, innovative and original.</p>
+		</article>
+				
+		<article id="navother">
+		<h2>Our history</h2>
+		<p> Nickie and Seba find themselves wishing to undertake a company of technology, so they join their willingness, effort and a lot of hours of work to develop multiple ideas they had, until TangereT came up.</p>
+		<p>Nickie dedicated a lot of time to creating TangereT not only as a new company, but also its culture and society contribution; Seba, was in charged of every technical aspect, assisted to talks about entrepreunership, develop some of the product TangereT offer today. Together, looked for new clients, and this is how this business idea was built from our appartment in Buenos Aires</p>
+		</article>
+	</section>
+	
+</div> <!--main-->

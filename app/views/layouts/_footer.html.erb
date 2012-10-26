@@ -1,0 +1,24 @@
+<footer class="grid-wrap">
+	<ul class="grid col-one-third social">
+		<li><%= link_to image_tag("icon3.png", alt:"linkedin"), "http://www.linkedin.com/company/TangereT", {:target=>"blank"}  %></li>
+		<li><%= link_to image_tag("icon1.png", alt:"icon1"), "http://www.facebook.com/TangereT", {:target=>"blank"} %></li>
+		<li><%= link_to image_tag("icon2.png", alt:"icon2"), "https://twitter.com/TangereT", {:target=>"blank"}  %></li>
+		<li><%= link_to image_tag("icon5.png", alt:"icon5"), "#" , {:target=>"blank"} %></li>
+		<li><%= link_to image_tag("icon4.png", alt:"icon4"), "http://www.vimeo.com/TangereT" , {:target=>"blank"} %></li>
+		<li>&copy2012 TangereT.com 2012. All rights reserved. <%= link_to "Privacy Policy", privacy_path, {:target=>"blank"}%></li>
+	</ul>
+
+	<div class="up grid col-one-third ">
+		<a href="#navtop" title="Go back up">&uarr;</a>
+	</div>
+	
+	<nav class="grid col-one-third ">
+		<ul>
+			<li><%= link_to "Home", root_path %></li>
+			<li><%= link_to "About", about_path %></li>
+			<li><%= link_to "Products", products_path %></li>
+			<li><%= link_to "Services", services_path %></li>
+			<li><%= link_to "Blog", blog_path %></li>
+			<li><%= link_to "Contact", contact_path %></li>		
+	</nav>
+</footer>
