@@ -7,4 +7,8 @@ module ApplicationHelper
       		"#{base_title} // #{page_title}"
     	end
   	end
+
+  	 def favicon
+    "<link rel='shortcut icon' href='#{image_path('/favicon.ico')}' />".html_safe
+  end
 end
