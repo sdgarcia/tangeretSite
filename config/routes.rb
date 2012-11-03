@@ -6,6 +6,8 @@ TangeretSite::Application.routes.draw do
   match '/services', to: 'static_pages#services'
   match '/blog', to: 'static_pages#blog'
   match '/privacy', to: 'static_pages#privacy'
+  match '/innovation', to: 'static_pages#innovation'
+  match '/working', to: 'static_pages#working'
 
   match '/contact' => 'contact#new', :as => 'contact', :via => :get
   match '/contact' => 'contact#create', :as => 'contact', :via => :post

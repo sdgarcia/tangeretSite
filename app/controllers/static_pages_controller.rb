@@ -17,6 +17,9 @@ class StaticPagesController < ApplicationController
   def privacy
   end
 
-  def contact
+  def innovation
+  end
+
+  def working
   end
 end
