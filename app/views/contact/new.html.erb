@@ -1,0 +1,69 @@
+<% provide(:title, 'Contact') %>
+<div class="about-page main grid-wrap">
+
+  <header class="grid col-full">
+  <hr>
+    <p class="fleft">Contact</p>
+  </header>
+<aside class="grid col-one-quarter mq2-col-one-third mq3-col-full">
+
+      <p class="mbottom">Cuéntanos tu idea, dinos cómo quieres ser reconocido en el mercado, cuáles son tus expectativas de venta, o simplemente qué necesidad quieres resolverle al mundo mediante tecnología... Nuestro equipo te diseñará una solución que esté a tu alcance.</p>
+      
+      <address class="mbottom">
+        <h5>TangereT studio </h5>
+        Nuñez 2609 <br >
+        Level 8, Door B <br >
+        1429 Zip<br >
+        <a href="http://goo.gl/maps/Rnyei">Get directions</a>
+      </address>
+    
+      <p class="mbottom">
+        (+54 9) 15 5638 6622<br >
+        (+54 9) 11 6122 8291</p>
+      <p class="mbottom">
+        <%= link_to image_tag("icon1.png", alt:"icon1"), "http://www.facebook.com/TangereT", {:target=>"blank"} %>
+        <%= link_to image_tag("icon2.png", alt:"icon2"), "https://twitter.com/TangereT", {:target=>"blank"}  %>
+        <%= link_to image_tag("icon3.png", alt:"linkedin"), "http://www.linkedin.com/company/TangereT", {:target=>"blank"}  %>
+        <%= link_to image_tag("icon4.png", alt:"icon4"), "http://www.vimeo.com/TangereT" , {:target=>"blank"} %>
+      </p>
+      <p>
+        <h6>Openning hours: </h6>
+        Monday to Friday <br >
+        09h00 to 18h00
+      </p>
+    
+    </aside>
+    
+    <section class="grid col-three-quarters mq2-col-two-thirds mq3-col-full">
+      <h2>Drop us a message</h2>
+      <p class="warning">No dejes de enviarnos tus inquietudes, en breve nos comunicaremos contigo!</p>
+
+      <%= form_for @message, :url => contact_path do |form| %>
+        <fieldset class="fields">
+          <div class="field">
+            <%= form.label :name %>
+            <%= form.text_field :name %>
+          </div>
+          
+          <div class="field">
+            <%= form.label :email %>
+            <%= form.text_field :email %>
+          </div>
+          <div class="field">
+            <%= form.label :subject %>
+            <%= form.text_field :subject %>
+          </div>
+          
+          <div class="field">
+            <%= form.label :body %>
+            <%= form.text_area :body %>
+          </div>
+        </fieldset>
+        
+        <fieldset class="actions">
+          <%= form.submit "Send" %>
+        </fieldset>
+      <% end %>
+      </section>  
+    
+  </div>
