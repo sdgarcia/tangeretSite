@@ -4,6 +4,6 @@ class NotificationsMailer < ActionMailer::Base
 
   def new_message(message)
     @message = message
-    mail(:subject => "Tangeret #{message.subject}")
+    mail(:subject => "TangeretWeb: #{message.subject}")
   end
 end

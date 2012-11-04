@@ -8,6 +8,7 @@ TangeretSite::Application.routes.draw do
   match '/privacy', to: 'static_pages#privacy'
   match '/innovation', to: 'static_pages#innovation'
   match '/working', to: 'static_pages#working'
+  match '/blogpost1', to: 'static_pages#blogpost1'
 
   match '/contact' => 'contact#new', :as => 'contact', :via => :get
   match '/contact' => 'contact#create', :as => 'contact', :via => :post

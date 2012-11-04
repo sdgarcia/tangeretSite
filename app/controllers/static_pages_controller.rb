@@ -22,4 +22,8 @@ class StaticPagesController < ApplicationController
 
   def working
   end
+
+  def blogpost1
+    
+  end
 end
